@@ -641,7 +641,7 @@ body {
     gap: 20px;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 412px) {
   .hero-text {
     font-size: 20px;
     padding: 15px;
@@ -742,7 +742,7 @@ body {
     width: 270px;
     height: 280px;
     position: relative;
-    left: 39px;
+    left: 59px;
     border-radius: 30px;
   }
 
@@ -751,8 +751,8 @@ body {
   }
   .hero-btn {
     position: absolute;
-    left: 95px;
-    bottom: 170px;
+    left: 115px;
+    bottom: 470px;
   }
 
   .hero-btn button {
@@ -789,7 +789,7 @@ body {
   }
 
   .hero-about {
-    margin-left: 30px;
+    margin-left: 50px;
     height: 300px;
     width: 300px;
     background: rgba(249, 57, 57, 0.037);
@@ -838,7 +838,7 @@ body {
   }
   #hero-filter select {
     position: relative;
-    left: 107px;
+    left: 134px;
     bottom: 87px;
 
     margin-bottom: 50px;
@@ -851,6 +851,23 @@ body {
     font-weight: 700;
   }
 }
+
+@media (max-width: 380px) {
+  #hero-filter select {
+    left: 107px;
+  }
+  .hero-about {
+    margin-left: 27px;
+  }
+  .hero-text {
+    left: 39px;
+  }
+  .hero-btn {
+    left: 95px;
+    bottom: 270px;
+  }
+}
+
 /*================================================
           MEDIA QUERIES END
 =================================================*/
