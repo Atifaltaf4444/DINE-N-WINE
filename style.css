@@ -669,11 +669,14 @@ body {
   align-items: center;
   border: 2px solid rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(15px);
+  animation: fadeDown 1s ease forwards;
 }
 h2 {
   font-size: 2em;
   color: #fff;
   text-align: center;
+  opacity: 0;
+  animation: fadeDown 1.2s ease forwards;
 }
 .input-box {
   position: relative;
@@ -689,7 +692,8 @@ h2 {
   font-size: 1em;
   color: #fff;
   pointer-events: none;
-
+  opacity: 0;
+  animation: fadeDown 1.5s ease forwards;
   transition: 0.5s;
 }
 
@@ -715,6 +719,8 @@ h2 {
   color: #fff;
   font-size: 1.2em;
   line-height: 57px;
+  opacity: 0;
+  animation: fadeDown 1.5s ease forwards;
 }
 
 .remember-forgot {
@@ -723,14 +729,20 @@ h2 {
   color: #fff;
   display: flex;
   justify-content: space-between;
+  opacity: 0;
+  animation: fadeDown 1.5s ease forwards;
 }
 .remember-forgot label input {
   margin-right: 3px;
+  opacity: 0;
+  animation: fadeDown 1.5s ease forwards;
 }
 
 .remember-forgot a {
   color: #fff;
   text-decoration: none;
+  opacity: 0;
+  animation: fadeDown 1.5s ease forwards;
 }
 
 .remember-forgot a:hover {
@@ -748,6 +760,8 @@ h2 {
   color: #000;
   font-size: 1em;
   font-weight: 700;
+  opacity: 0;
+  animation: fadeDown 2.2s ease forwards;
 }
 .account-btn a {
   text-decoration: none;
@@ -759,12 +773,16 @@ h2 {
   color: #fff;
   text-align: center;
   margin: 25px 0 10px;
+  opacity: 0;
+  animation: fadeDown 1.5s ease forwards;
 }
 
 .register-link p a {
   color: #fff;
   text-decoration: none;
   font-weight: 600;
+  opacity: 0;
+  animation: fadeDown 1.5s ease forwards;
 }
 
 .register-link p a:hover {
