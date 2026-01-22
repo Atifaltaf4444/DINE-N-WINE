@@ -1046,6 +1046,10 @@ h2 {
   .input-box {
     width: 290px;
   }
+  .account-btn a {
+    letter-spacing: 16px;
+    font-weight: 700;
+  }
 }
 
 /*================================================
