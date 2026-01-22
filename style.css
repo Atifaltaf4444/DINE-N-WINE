@@ -749,25 +749,6 @@ h2 {
   text-decoration: underline;
 }
 
-.account-btn {
-  width: 100%;
-  height: 40px;
-  background: #fff;
-  border: none;
-  outline: none;
-  border-radius: 40px;
-  cursor: pointer;
-  color: #000;
-  font-size: 1em;
-  font-weight: 700;
-  opacity: 0;
-  animation: fadeDown 2.2s ease forwards;
-}
-.account-btn a {
-  text-decoration: none;
-  color: #000;
-}
-
 .register-link {
   font-size: 0.9em;
   color: #fff;
@@ -789,6 +770,19 @@ h2 {
   text-decoration: underline;
 }
 
+.acc-btn a {
+  color: #000;
+  background-color: #f2f1f1;
+  border-radius: 40px;
+  padding: 10px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  animation: fadeDown 2.2s ease forwards;
+}
+
 /*======================================
      ACCOUNT SECTION END
 =======================================*/
@@ -806,7 +800,7 @@ h2 {
   .hero-nav-container {
     margin-left: 50px;
   }
-    .account-btn a {
+  .account-btn a {
     letter-spacing: 16px;
     font-weight: 700;
   }
@@ -832,12 +826,12 @@ h2 {
     flex-direction: column;
     gap: 20px;
   }
-    .account-btn a {
+  .account-btn a {
     letter-spacing: 16px;
     font-weight: 700;
   }
 }
-@media (max-width: 412px) {
+@media (max-width: 467px) {
   .hero-text {
     font-size: 20px;
     padding: 15px;
@@ -1046,9 +1040,15 @@ h2 {
     border-radius: 20px;
     font-weight: 700;
   }
-    .account-btn a {
-    letter-spacing: 16px;
-    font-weight: 700;
+
+  .login-box {
+    width: 100%;
+    height: 100vh;
+    border: none;
+    border-radius: 0;
+  }
+  .input-box {
+    width: 290px;
   }
 }
 
@@ -1075,10 +1075,6 @@ h2 {
   }
   .input-box {
     width: 290px;
-  }
-  .account-btn a {
-    letter-spacing: 16px;
-    font-weight: 700;
   }
 }
 
